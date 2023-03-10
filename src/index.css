@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.fb-login-box{
+  margin-top:50px;
+  max-width:600px;
+  margin:0 auto;
+  min-height:400px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  border:1px solid #ccc;
+  margin-top:50px;
+}
+.fb-login-box h1{
+  color:#333;
+  font-size:26px;
+  margin-bottom:30px;
+}
+.fb-login-box h1 .kep-login-facebook{
+  transition:0.5s ease;
+}
+.fb-login-box .kep-login-facebook:hover{
+  background:#fff;
+  color:#333;
+}
+.influencer-dropdown{
+  width:300px;
+}
+.influencer-recommend{
+  padding-left:20px;
+}
+.influencer-recommend .heading{
+  color:#333;
+}
+.logo-wrapper span{
+  display:inline-flex;
+  align-items:center;
+  height:100%;
+}
